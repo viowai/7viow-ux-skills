@@ -1,0 +1,5 @@
+interface:
+  display_name: "7viow UX/UI Design"
+  short_description: "Create coherent UX/UI and verify the user task."
+  default_prompt: "Use $7viow-ux-ui-design to turn this brief into a usable, reviewable experience."
+  brand_color: "#23593B"

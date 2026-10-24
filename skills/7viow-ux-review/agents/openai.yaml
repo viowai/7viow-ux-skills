@@ -1,0 +1,5 @@
+interface:
+  display_name: "7viow UX Review"
+  short_description: "Review UX tasks with evidence and testable repairs."
+  default_prompt: "Use $7viow-ux-review to assess this experience and prioritize evidence-backed fixes."
+  brand_color: "#23593B"
