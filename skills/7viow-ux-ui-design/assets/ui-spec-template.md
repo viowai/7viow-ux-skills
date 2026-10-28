@@ -30,3 +30,7 @@ Per rewritten item: before/after, non-whitespace character counts, ratio, requir
 For generated-artifact repairs: maintained source and affected element; generator/export path; affected views; regeneration command; rebuilt task evidence; unavailable source or output-only limitations. Omit this branch for directly maintained artifacts.
 
 Task steps; expected result; actual result/evidence; tested artifact/version/environment; open defects or untested scope. For repairs, preserve finding IDs and unaffected behavior. Include the actual output and all resources required to use it. A small task can compress this template without generating empty sections.
+
+## Conditional content and professional handoff
+
+When needed, reference the existing content model, preferred labels/aliases, navigation/finding contract and actual research evidence; do not recreate them in parallel documents. Identify the actual design author, reviewer, integration owner and any specialist's assigned outcome. Preserve approved and rejected decisions and return actual artifacts/evidence. Same-execution self-review remains self-review; omit empty sections.

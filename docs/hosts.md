@@ -39,7 +39,7 @@ npx -y skills@1.7.4 add viowai/7viow-ux-skills --skill 7viow-ux-review --skill 7
 
 ## 本地目录与下载包
 
-从 [v0.3.2 下载页](https://github.com/viowai/7viow-ux-skills/releases/tag/v0.3.2)选择完整仓库 ZIP、单技能 ZIP 或单文件 MD；[README 下载表](../README.md#直接下载)提供直接链接。
+从 [GitHub Releases](https://github.com/viowai/7viow-ux-skills/releases)选择完整仓库 ZIP、单技能 ZIP 或单文件 MD；[README 下载表](../README.md#直接下载)提供直接链接。
 
 有完整仓库目录时，在目标项目运行下列命令。将示例路径换成实际目录，**不要指向 ZIP 文件**；`--agent` 按上表替换。
 
@@ -107,10 +107,10 @@ npx -y skills@1.7.4 list --agent codex
 
 ## 固定版本
 
-需要固定在 v0.3.2 时，用 tag 地址替代默认分支地址。例如只安装 Review 到 Codex 当前项目：
+需要固定版本时，先从 Releases 选择实际已发布的 tag，再用它替代默认分支地址。例如只安装 Review 到 Codex 当前项目：
 
 ```bash
-npx -y skills@1.7.4 add https://github.com/viowai/7viow-ux-skills/tree/v0.3.2 --skill 7viow-ux-review --agent codex --copy -y
+npx -y skills@1.7.4 add 'https://github.com/viowai/7viow-ux-skills/tree/<已发布tag>' --skill 7viow-ux-review --agent codex --copy -y
 ```
 
 只安装 Design 时将技能名换为 `7viow-ux-ui-design`；也可以同时给出两组 `--skill`。固定版本更新时，明确换成所需的新 tag，或恢复使用默认分支地址。

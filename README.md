@@ -15,7 +15,7 @@
 
 ## 快速开始
 
-当前正式版：[v0.3.2](https://github.com/viowai/7viow-ux-skills/releases/tag/v0.3.2)。可从 GitHub 安装，也可下载完整目录后使用[本地安装](docs/hosts.md#本地目录与下载包)。
+在线安装获取仓库已发布的版本。可从 GitHub 安装，也可下载完整目录后使用[本地安装](docs/hosts.md#本地目录与下载包)。
 
 **让 Agent 帮你安装：**把下面一句话发给具备终端与文件权限的 Agent。
 
@@ -33,12 +33,14 @@ npx -y skills@1.7.4 add viowai/7viow-ux-skills --skill 7viow-ux-review --skill 7
 
 ## 直接下载
 
-| 需要的内容 | v0.3.2 下载 |
+在 [GitHub Releases](https://github.com/viowai/7viow-ux-skills/releases) 选择已发布版本及附件：
+
+| 需要的内容 | 附件名称 |
 | --- | --- |
-| 两个 Skill 和使用说明 | [完整 ZIP](https://github.com/viowai/7viow-ux-skills/releases/download/v0.3.2/7viow-ux-skills-0.3.2.zip) |
-| 只安装 UX Review | [独立 ZIP](https://github.com/viowai/7viow-ux-skills/releases/download/v0.3.2/7viow-ux-review-0.3.2.zip) |
-| 只安装 UX/UI Design | [独立 ZIP](https://github.com/viowai/7viow-ux-skills/releases/download/v0.3.2/7viow-ux-ui-design-0.3.2.zip) |
-| 在对话中临时使用完整方法 | [Review 单文件](https://github.com/viowai/7viow-ux-skills/releases/download/v0.3.2/7viow-ux-review-0.3.2-standalone.md) · [Design 单文件](https://github.com/viowai/7viow-ux-skills/releases/download/v0.3.2/7viow-ux-ui-design-0.3.2-standalone.md) |
+| 两个 Skill 和使用说明 | `7viow-ux-skills-<版本>.zip` |
+| 只安装 UX Review | `7viow-ux-review-<版本>.zip` |
+| 只安装 UX/UI Design | `7viow-ux-ui-design-<版本>.zip` |
+| 在对话中临时使用完整方法 | `7viow-ux-review-<版本>-standalone.md` 或 `7viow-ux-ui-design-<版本>-standalone.md` |
 
 单文件方式需要宿主能完整读取文件；它不会永久安装或自动增加工具权限。需要固定版本安装时，见[安装与宿主](docs/hosts.md#固定版本)。
 
@@ -72,11 +74,11 @@ Skill 提供工作方法；文件访问、浏览器和原生设计工具由所�
 
 ## 一起使用
 
-从 [独立使用与协作](docs/using-together.md) 了解 Design 与 Review 如何交接，以及什么时候适合加入 7viow 写作技能。局部任务只调用需要的能力，保留一份当前产物和一份问题清单。
+从 [独立使用与协作](docs/using-together.md) 了解 Design 与 Review 如何交接、如何用 [Talis](https://github.com/viowai/7viow-talis) 保存后续修改与复验请求，以及什么时候适合加入 7viow 写作技能。局部任务只调用需要的能力，保留一份当前产物和一份问题清单。
 
 ## 作者与许可
 
-作者与维护者：**Viow** · 系列：**7viow** · 当前版本：**0.3.2**
+作者与维护者：**Viow** · 系列：**7viow** · 文件版本：**0.4.0**
 
 原创版权：**Copyright (c) 2026 Wenbin Li**。采用 [MIT License](LICENSE)。
 

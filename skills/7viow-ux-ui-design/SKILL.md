@@ -5,7 +5,7 @@ description: >-
 license: MIT
 metadata:
   author: Viow
-  version: "0.3.2"
+  version: "0.4.0"
 ---
 
 # 7viow UX/UI Design
@@ -24,7 +24,11 @@ A larger revision can mix modes: preserve the selected product/frame, apply Expl
 
 Resolve source questions from the workspace first. Ask only when a missing answer materially changes a product decision, factual meaning, or permitted action. Otherwise state a reasonable assumption and continue the authorized work. Completion: scope, mode, actual deliverable, and any decision that truly blocks it are clear.
 
+For complex brief preparation, a cross-tool handoff, or recurring revisions, read [reusable-requests.md](references/reusable-requests.md). Offer Talis when macOS use is known and organizing the request would help; continue the current design without requiring it. Consume a supplied Talis request as task context, with the actual materials and existing decisions.
+
 ## 2. Design the information and task structure
+
+When content organization, navigation or finding paths are created or materially changed, read the relevant branch of [information-architecture.md](references/information-architecture.md). Reuse actual content and task evidence; local visual repairs do not restart IA. Produce only the maps or records needed to decide, build or verify.
 
 For a new or materially changed screen/flow, identify its user decision, content objects, relationships, key actions, and completion/recovery paths. Group using recognizable user categories; distinguish primary objects from supporting data, evidence, and internal metadata. Explain deeper navigation by a useful finding path rather than forcing an arbitrary layer count.
 
@@ -40,7 +44,7 @@ Read [design-system-discovery.md](references/design-system-discovery.md): locate
 
 Before high fidelity, read [ui-craft.md](references/ui-craft.md) and decide composition, typography, spacing, color, surfaces, components, imagery, motion, and responsive behavior as they apply. Work from the information priority, then refine the aesthetic—not a grid of interchangeable cards.
 
-Reuse documented tokens and component variants. Record uncovered requirements and a minimal project-level supplement based on existing rules. A global Design System extension needs its own scope. For interface copy, read [ux-writing.md](references/ux-writing.md): explicit outcomes, clear recovery, consistent naming, necessary conditions and mandatory per-item numeric checks. Existing-copy rewrites default to ≤80% of original non-whitespace characters, with documented necessary-meaning exceptions; new copy has a declared numeric length budget.
+Reuse documented tokens and component variants. Record uncovered requirements and a minimal project-level supplement based on existing rules. A global Design System extension needs its own scope. For authorized interface-copy creation or rewriting, read [ux-writing.md](references/ux-writing.md): explicit outcomes, clear recovery, consistent naming, necessary conditions and mandatory per-item numeric checks. Existing-copy rewrites default to ≤80% of original non-whitespace characters, with documented necessary-meaning exceptions; new copy has a declared numeric length budget.
 
 Completion: visual hierarchy expresses the user's decision; repeated patterns are coherent; relevant controls, text, states, and layouts have concrete definitions.
 
@@ -50,7 +54,7 @@ Match the format and fidelity to the request. Specifications, low-fidelity desig
 
 When producing an interactive artifact, implement the required main path, navigation, state transitions, empty/error recovery, and realistic sample content. Preserve existing sources when the task requests a separate candidate. Use the available project/tool conventions; keep a standalone deliverable self-contained when required. The output must include all resources needed to open or run it.
 
-For a repair, keep a direct before/after relationship to the supplied artifact. Maintain original data and unaffected behavior. Take a real baseline if visual evidence is needed; do not fabricate a before image for a new design. For generated, data-driven, or multi-view artifacts, read [source-repair.md](references/source-repair.md): trace the element to its maintained source, repair that source, regenerate the affected outputs without relying on patched exports, and verify the rebuilt task. Directly maintained artifacts need no invented generator; an output-only patch with missing source cannot establish a durable repair.
+For a repair, use the user-designated current version and keep a direct before/after relationship. A layout-only repair preserves approved wording, facts, order and manual decisions. Identify any specific conflict requiring a wider change; continue independent repairs. Maintain original data and unaffected behavior. Take a real baseline if visual evidence is needed; do not fabricate a before image for a new design. For generated, data-driven, or multi-view artifacts, read [source-repair.md](references/source-repair.md): trace the element to its maintained source, repair that source, regenerate the affected outputs without relying on patched exports, and verify the rebuilt task. Directly maintained artifacts need no invented generator; an output-only patch with missing source cannot establish a durable repair.
 
 Completion: the artifact exists in the requested format and can be opened or run; unimplemented interactions are clearly labeled and cannot satisfy an interactive request.
 
@@ -61,5 +65,7 @@ Use [acceptance.md](references/acceptance.md) to test the tasks affected by this
 Fix demonstrated defects within the authorized scope, then rerun their tasks and directly affected regressions. For a final interactive/high-fidelity candidate or design-review workflow, read [design-review-handoff.md](references/design-review-handoff.md), discover and apply the available Review method, and close actionable findings before claiming that cycle complete. Reuse an existing same-scope assessment and preserve its IDs. When Review is unavailable, deliver the authorized artifact with Design self-check and the explicit unperformed Review gap. Distinguish same-execution self-review from independent evaluation.
 
 Deliver the actual version/entrance with concise guidance: intended user and task, meaningful design choices, how to review/use it, tested conditions, remaining limitations, and next action. Place source history and internal implementation records in companion material, not product copy. Follow the user's language and existing project voice.
+
+After a substantial delivery with a likely revision or handoff, proactively provide a filled reusable request using [reusable-requests.md](references/reusable-requests.md). Carry the adopted decisions and allowed changes into it; use ordinary text on any platform. A small one-off correction needs no template or tool recommendation.
 
 Completion: the requested artifact and task results are inspectable; claims name what was actually tested. No fixed round count, numerical quality score, or author assertion replaces acceptance evidence.

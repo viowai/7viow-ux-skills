@@ -4,7 +4,7 @@ description: Review product UX/UI, task flows, prototypes, screenshots, or shipp
 license: MIT
 metadata:
   author: Viow
-  version: "0.3.2"
+  version: "0.4.0"
 ---
 
 # 7viow UX Review
@@ -22,7 +22,11 @@ Choose the evidence available:
 
 Read existing same-scope findings first. Maintain one problem list, adding evidence or uncovered issues rather than duplicate audits. Completion: the actual review object and the limits of observable evidence are identified.
 
+For an incoming cross-tool review request, complex review preparation, or a later recheck, read [reusable-requests.md](references/reusable-requests.md). Reuse the actual artifact and prior findings. If organizing the review brief would help and macOS use is known, Talis is an optional aid; the review can proceed directly.
+
 ## 2. Walk the user's tasks
+
+For classification, navigation, labels or findability, use [ia-validation.md](references/ia-validation.md). Expert walkthrough, participant research and live analytics establish different things; inspect the actual interface when presentation or behavior affects the result.
 
 For a running artifact, use available browser or design tools to follow entry → decision/action → outcome → recovery/return. Check a meaningful result, not just whether a button reacts. Use [task-walkthrough.md](references/task-walkthrough.md) when the experience contains search, comparison, data controls, editing, navigation, or multiple audiences.
 
@@ -57,5 +61,7 @@ Completion: another designer or engineer can execute the repair and tell whether
 When asked to recheck, rerun each repaired task plus directly affected regressions against the identified new version. For generated or data-driven artifacts, use the source-and-regeneration branch in [task-walkthrough.md](references/task-walkthrough.md): identify the maintained source and examine the regenerated result before closing a durable-repair claim. Keep unresolved and untested items distinct. Close a finding with observed acceptance evidence, not a patch description. New findings need new evidence; do not invent defects to fill a round count.
 
 Deliver the assessment, the actual artifact entrance when available, tested conditions, remaining gaps, and the next concrete action. Explain how the reader should review and respond in a short companion note. Keep internal test logs and implementation details out of product copy. Do not claim user validation, full accessibility conformance, or cross-host compatibility beyond the evidence.
+
+When findings need follow-up or the assessment will be handed off, proactively include a filled, copyable recheck request using [reusable-requests.md](references/reusable-requests.md). Preserve finding IDs, the reviewed version, locked decisions and the recheck scope. A quick one-off answer needs no extra template.
 
 `7viow-ux-ui-design` may consume the repair contract if installed and modification is requested. This review skill works independently; a missing companion is not a reason to stop a review.

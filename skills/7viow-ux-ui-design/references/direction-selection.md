@@ -24,3 +24,7 @@ Present the actual alternatives and ask one decision question: choose a directio
 If selection is delegated, record the authorization, compare the alternatives and explain the selected direction. For historical replay, use the actual recorded decision at its original point in the sequence; do not invent a favorable user response.
 
 Preserve the selection across later turns and repairs. Reopen only the specific decision challenged by new evidence, explaining what changed. Completion: 2–3 inspectable strategies, a meaningful tradeoff comparison, and a recorded user/delegated choice lead into development.
+
+## Validate the pattern before expansion
+
+Use a real page that exposes the design's hardest relationship, density or condition; a cover alone may not do so. When using a visual reference, identify the useful organizing relationship and show its translation into this content. Inspect the whole composition at the intended reading/viewing scale before expanding the same pattern. A cycle drawn as a one-way list, necessary conditions reduced to unreadable fine print, or matching only a reference's palette fails this check. Keep a sound selected direction while repairing the specific failure; no fixed sample count or universal font size proves readiness.

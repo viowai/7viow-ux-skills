@@ -33,3 +33,19 @@ Provide recognizable results with relevant context; take the user to the matchin
 ## Multiple audiences
 
 Only when the brief defines different audiences, map audience → permitted content/objects → actions → search/detail/source/download paths. Produce the right content for each audience from the authoritative facts. Hidden controls or client filters alone do not establish access isolation. Keep the domain's disclosure and permission decisions in project input; escalate only an actual unresolved boundary.
+
+## Compound and interrupted actions
+
+When an action includes several outcomes, define each separately: what is committed, what is still pending, and what the user can recover if a later step fails. Saving input, generating a result, downloading and sending are distinct states. Match feedback, busy controls, persisted data and the next action to the actual completed step.
+
+For reachable interruption, duplicate action, changed access/status, old tabs and delayed responses, define whether the pending operation may still take effect. A cancelled or archived item must not be reactivated by a late result; retain recoverable input and explain the available continuation. Choose relevant cases from this workflow, not every theoretical race. UX owns the outcome contract; engineering owns transactions, request identifiers and enforcement.
+
+Completion: each partial outcome and reachable interruption has an observable state and recovery; a generic success toast cannot stand for all steps.
+
+## Search, filters and ranking
+
+When present, define searchable scope/fields and meaningful aliases; AND/OR behavior within and across facets; sorting/ties; result counts; reset and zero-result recovery. Derive displayed results, counts and any narrative from the same selected scope. Keep object identity and selection stable across detail/return. A promoted or pinned result must still satisfy declared filters and make its commercial role understandable; do not describe that ordering as unconditional relevance. Algorithm and commercial policy decisions belong to their actual owners.
+
+## Data grain and interpretation
+
+Name the counted object, grouping level, unit and time/scope beside a data result. Categories with identical labels must not secretly represent different underlying objects. Keep a chart, detail list and explanatory prose aligned with their respective documented grain. Credentials, visits, events and people are not interchangeable. Missing business formulas remain a domain/data question; UX does not invent a calculation to make the display look complete.

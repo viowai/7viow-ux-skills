@@ -39,3 +39,15 @@ If the source or runtime is missing, report what was observed and leave persiste
 ## Honest case reporting
 
 Record task, initial state, expected result, actual result, evidence, and cleanup. Label expert walkthrough, automated check, and participant study accurately. Reconstructed examples are not direct production observations; self-reported checks need inspection before being accepted as evidence.
+
+## Modification scope and delivery medium
+
+Compare the affected content, order, links and manual decisions against the user-designated baseline. A layout-only request does not authorize rewriting text even if its facts remain true. Inspect the actual requested native/import/export path: a separately generated preview cannot prove native structure, editability, pagination or links. Report each promised format as observed, failed or untested; do not invent unavailable native evidence.
+
+## Compound and interrupted outcomes
+
+For save-then-process, upload-then-generate or submit-then-notify, check each real completion and recovery separately. Test applicable delayed failure, cancellation, repeated action and changed state with isolated data. Does a late result undo an archive/cancel or overwrite newer work? Does “saved” remain true when the later operation fails? Inspect available storage/API evidence where needed; UI feedback alone does not prove server enforcement. Avoid introducing unrelated timing tests.
+
+## Filter and aggregation semantics
+
+Combine real queries, facets and sort order; inspect counts, zero results, reset, detail/return and any pinned result. Confirm whether filters combine as the interface claims. For data views, identify the counted object and grouping level; compare chart labels, details and narrative under the same scope. Repeated labels may hide separate objects, and an access credential is not proof of a unique person. Report the semantic mismatch and the responsible source; leave specialist statistical or ranking validation to the relevant capability.

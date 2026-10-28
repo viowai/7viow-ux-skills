@@ -14,3 +14,9 @@ For UI copy changes, inspect the per-item counts/budgets and individually justif
 Record action, expected, actual, artifact/version and evidence. Separate passed, failed, and not tested. When evidence tools are unavailable, finish authorized work and identify the remaining verification gap rather than calling it a completed interactive acceptance.
 
 Use a short review guide with the actual output entrance. Keep internal check files separate from the user-facing product. Independent evaluation requires a fresh executor without the author's expected answer or intervention; ordinary self-checks are not proof of generalization.
+
+## Actual delivery medium
+
+For each promised format, inspect the version saved/imported in its intended application and its actual export. Track native structure/editability, readable output, links and applicable interactions separately. Another renderer's preview proves only that renderer's result. Cover the formats and paths this request changes; do not turn a single-format task into a universal export exercise.
+
+Before repeating a visual pattern across many pages, inspect a representative difficult page with real content at the intended viewing scale. Check relationships, hierarchy and decision-critical conditions. A technically valid file, a fitting text box or a passed script cannot override a content or visual failure.

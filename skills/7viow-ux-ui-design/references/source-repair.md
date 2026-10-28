@@ -27,3 +27,9 @@ A successful build alone is not acceptance. Record the source changed, generatio
 - One role's exported page has the new label but the next export restores the old label. Fix the shared label/template while preserving each role's actual data scope.
 - A live value is pasted into markup to make a screenshot look right. Repair formatting or binding and check another value; do not freeze the data.
 - A standalone HTML file is itself the maintained source. Editing and reloading it is valid; demanding a generator would add unrelated work.
+
+## Bound the modification
+
+Use the actual version the user selected, including manual native edits. For layout-only work, keep approved text, section order, links and content decisions intact; solve spacing, wrapping and component placement through layout. Do not invoke copy compression to authorize rewriting. Compare affected content and behavior before/after, including changes introduced by the export path. A necessary content or structure change requires the corresponding scope; explain the concrete conflict instead of silently broadening the repair.
+
+For native formats, preserve editable objects and the requested import/export route. A separately typeset preview cannot establish that the native document retains its columns, links, pagination or editability.

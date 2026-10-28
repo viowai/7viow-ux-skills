@@ -21,3 +21,7 @@ Artifact/version and entrance; intended audience/task; what this review can esta
 
 ## Delivery
 Covered tasks; unaffected behavior worth preserving; unresolved inputs; next action. For a small review, compress this into a few paragraphs without losing the evidence-to-acceptance relationship.
+
+## Review identity and specialist evidence
+
+Name the actual reviewed version, author/reviewer relationship and evidence origin. Distinguish own observed tasks, supplied observations, expert inference and participant data. Refer specialist questions to the responsible capability without turning the review into implementation. A content or visual failure remains open even when technical checks pass. Return one problem list for the actual integration owner.
